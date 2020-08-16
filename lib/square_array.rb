@@ -1,3 +1,11 @@
 def square_array(array)
-  # your code here
+
+sq = []
+
+while ctr< array.length do 
+    sq.push(array[ctr] **2)
+end
+
+sq
+
 end
